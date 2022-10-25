@@ -99,6 +99,11 @@ flex-direction: column;
     bottom:5%;
     right: 5%;
 }
+
+.box a:hover{
+    scale: 1.02;
+}
+
 .box{
     flex: 1 0 50%;
     padding: 2em;
