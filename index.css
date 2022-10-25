@@ -16,9 +16,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 2em 6em;
-    box-shadow: 0 10px black;
-  
+    box-shadow: 0 10px black; 
 }
+
 button{
     border:none;
     background-color: transparent;
@@ -34,7 +34,7 @@ button{
 button:hover{
     background-color: aliceblue;
     color: var(--amalieblue);
-    scale: 1.5;
+    scale: 1.1;
 }
 img{
     width: 100%;
@@ -54,15 +54,16 @@ main{
 
 a{
     text-decoration: none;
-color:darkslategray;
-border-radius: 10px;
-transition: all 370ms;
+    color:darkslategray;
+    border-radius: 10px;
+    transition: all 370ms;
 }
 a:hover{
     color: var(--amalieblue);
     scale: 1.2;
     padding: 5px;
 }
+
 .socials a img{
 transition: all 700ms;
 }
@@ -72,8 +73,8 @@ transition: all 700ms;
 }
 footer{
     background-color:rgb(209, 209, 209);
-    display: flex;
-justify-content: space-between;
+    display: flex;    
+    justify-content: space-between;
     height: 20vh;
     padding: 1.5em;
 }
